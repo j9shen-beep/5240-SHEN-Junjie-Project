@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────
+# Earnings Call Dividend Risk Early Warning System
+# requirements.txt — Streamlit Cloud (Python 3.12)
+# Pinned to versions confirmed working together on Py3.12
+# ─────────────────────────────────────────────────────────
+
+# Core ML / NLP
+transformers==4.47.0
+torch==2.5.1
+tokenizers==0.21.0
+sentencepiece==0.2.0
+accelerate==1.2.1
+
+# HuggingFace Hub
+huggingface-hub==0.27.0
+
+# Streamlit
+streamlit==1.41.1
+
+# Data handling
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.0
+openpyxl==3.1.5
+
+# Utilities
+tqdm==4.67.1
+safetensors==0.4.5
+
